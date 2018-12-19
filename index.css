@@ -1,0 +1,62 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+
+
+.square {
+  background: #ffffff;
+  border: 0.5px solid #999;
+  float: left;
+  line-height: 34px;
+  height: 70px; 
+  width: 70px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-size: cover;
+  
+}
+
+.noBackGroundImage{
+  background-image: none;
+
+}
+
+.way{
+
+  background-image:url(weg.png);
+}
+
+.rat{
+ background-image: url(Maus.png);
+
+}
+
+.wall{
+  background-image: url(Mauer.png);
+
+}
+.cheese{
+  background-image: url(Käse.png);
+  
+}
+.square:focus {
+  outline: none;
+}
+
+
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
