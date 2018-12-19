@@ -1,5 +1,8 @@
 import {SquareEnum} from './SquareFile';
 
+
+
+// the array which is given is a array with the values of the squares
 export default function(array) {
   //OpenQueue & ClosedQueue are lists with objects.
   // These objects contain x,y props.
