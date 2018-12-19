@@ -82,6 +82,8 @@ function isInQueue(queue, TestingNode) {
   return false;
 }
 
+
+//gets possible path
 function getNeighbor(array, CurrentNode) {
   let { x, y } = CurrentNode;
 
