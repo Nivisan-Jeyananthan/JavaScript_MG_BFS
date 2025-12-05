@@ -90,7 +90,7 @@ function isInQueue(queue: CoordinateType[], testingNode: CoordinateType) {
 
 //gets possible path
 function getNeighbor(array: SquareEnumType[][], currentNode: CoordinateType): CoordinateType[] {
-  let { x, y } = currentNode;
+  const { x, y } = currentNode;
 
   let newArray = [];
   if (x - 1 >= 0 && array[y][x - 1] !== SquareEnum.MAUER) {
